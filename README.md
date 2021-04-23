@@ -5,9 +5,15 @@ Easy to use LAMP stack for local development with Docker.
 
 Includes the latest available versions of PHP, Apache, MySQL, PMA and Composer.
 
-The PHP version can be changed from the Dockerfile. Apache is installed by the PHP image (php:apache).
+<br>
 
-The MySQL version needs to be changed from `docker-compose.yml` file
+The PHP version can be changed in the `Dockerfile`. 
+
+Apache is installed by the PHP image. The document root can be changed inside the `Dockerfile`. 
+
+The MySQL version needs to be changed in `docker-compose.yml` file
+
+phpMyAdmin will run on port 3000. can be changed in `docker-compose.yml` file
 
 <br>
 
